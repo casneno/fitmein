@@ -1,24 +1,10 @@
 # FitMeIn
+
 ## Get matched with a workout buddy
 Health if often the most important aspect of ones life but taking care of it can often feel like a daunting task, especially when it comes to exercising.  To most people, workout doesn't come naturally and it is for those people that FitMeIn was made.  All you have to do is to pick what kind of activity you enjoy and you will get matched to a buddy that wants to join you so you can exercise together.  By bringing together people, we hope to give them that extra motivation needed to lead a healthy life (and make friends in the process!).
-### Check it out! [FitMeIn](https://fit-me-in-7fcf0f4ba962.herokuapp.com/)
 
 ## Description & Motivation
 FitMeIn was the third project in the General Assembly SEI Course.  This project focused on applying the Django Framework and Postgre SQL.  Additionally we opted to implement a Geolocation API. This app was a group project that taught us how to pair and mob program and practice the pull/push workflow in team work.
-
-## Team Work
-Our Team: [Angelica Sandrini](https://github.com/gellisun) | [Hannah Curran](https://github.com/hannahcurran) | [James Carter](https://github.com/JamesC215) | [Lucas Neno](https://github.com/casneno)
-
-From the get-go the entire team got together very well.  As scrum master I divised a series of brainstorming sessions for us to decide on the group name and project, followed by a wireframe building session where the synergy showed very well.
-
-### Brainstorming
-![Initial brainstorming on the project](/main_app/static/images/README/Brainstorming.png "Initial brainstorming on the project")
-### Wireframe
-![Mobile](/main_app/static/images/README/mobile-wireframe.png "Wireframe for mobile")<br>
-
-During the planning we also decided that we would be working with a mix of pair/mob programming and solo programming depending on the needs and functionalities.
-
-## Technology Used
 
 ![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20.svg?style=for-the-badge&logo=Django&logoColor=white)
@@ -27,8 +13,14 @@ During the planning we also decided that we would be working with a mix of pair/
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
 ![Heroku](https://img.shields.io/badge/Heroku-430098.svg?style=for-the-badge&logo=Heroku&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white)
+![AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E.svg?style=for-the-badge&logo=Amazon-AWS&logoColor=white)
 
+### Check it out! [FitMeIn](https://fit-me-in-7fcf0f4ba962.herokuapp.com/)
 
+## Team Work
+Our Team: [Angelica Sandrini](https://github.com/gellisun) | [Hannah Curran](https://github.com/hannahcurran) | [James Carter](https://github.com/JamesC215) | [Lucas Neno](https://github.com/casneno)
+
+From the get-go the entire team got together very well.  As scrum master I divised a series of brainstorming sessions for us to decide on the group name and project, followed by a wireframe building session where the synergy showed very well.
 
 ## Brief
 - Connect to and perform data operations on a PostgreSQL database (the default SQLLite3 database is not acceptable).
@@ -40,12 +32,22 @@ During the planning we also decided that we would be working with a mix of pair/
 
 ## Planning
 
+### Brainstorming
+![Initial brainstorming on the project](/main_app/static/images/README/Brainstorming.png "Initial brainstorming on the project")
+
+### Wireframe
+![Mobile](/main_app/static/images/README/mobile-wireframe.png "Wireframe for mobile")<br>
+
+During the planning we also decided that we would be working with a mix of pair/mob programming and solo programming depending on the needs and functionalities.
+
 ![Web](/main_app/static/images/README/web-wireframe.png "Wireframe for web")
 ### ERD
 ![ERD](/main_app/static/images/README/erd.png "ERD")
 
-## Code Process
-The biggest challenge regarding the various functionalities implemente with our Models was surely understanding how to make a 1:1 relationship work. Also, we are committed to solve the issue we didn't have time to solve while trying to add an in-place-edit functionality with JavaScript.
+## Building the Code
+
+Our first approach to coding started in the planning phase where we defined what feature each person would implement.  I took charge of the API for most the project.  In the beginning we needed to define the models and establish the one-to-one realtionships. After doing so, each one took charge of coding a different section of the app. O began working on the API.
+
 
 ```Python
 @login_required
@@ -156,19 +158,16 @@ def find_match(request, profile_id):
 ```
 
 ## Challenges
-The most time consuming challenge we faced was pulling down from the main remote repo after major changes and functionalities were made. Also, as the functionalities we wanted to implement were different from we did during class and labs, that meant that we all had to go through a lot of documentation in order to implement them.
+Most of the challenges in this project revolved around the pull/push and migrate aspect of team work and PostgreSQL.  More often than not we got conflicts in the beginning and dedicated a lot of time to debugging and resetting the database.  Also, our final relationship between entities wasn't correct so our model was flawed and whe testing, we weren't able to relate the user'd unique Id to the comment section.
 
 ## Wins
-Throughout our group project, we accomplished some important goals as a team. We implemented some great features and have a functioning app. We had good communication and benefited from pair and mob programming at times. Although there were challenges, we were able to pull through and created a supportive space. By working together and talking openly, we set up a solid start for a great social fitness app!
-
-To work as part of a team who all had a positive attitude throughout the whole group GitHub process, even though it was a big challenge to process the new workflow and successfully create an app through different means of collaboration.
+Managing to coordinate the workflow without merging errors and migration issues was definetely a win for us.  Our group communication was also very good from the start and that was essential for us to understand what was it that we were doing wrong whenever a wrkflow issue would arrise. As a team I felt that we were very supportive of one another and I really enjoyed debugging in pair programming.
+Personally, the logic behind calculating the Geolocation and implementing the HTML5 Geolocation API were two of my greatest wins, since it was the first time I implemented an API.
 
 ## Key Learnings
-We all can say we learnt a lot about Git and GitHub collaboration after all the hours we spent on it :laughing:.
-
-We learned the significance of clear communication and division of tasks, which helped us stay organized and efficient. Additionally, tackling real-world challenges, such as integrating authentication, an API and balancing front-end aesthetics with back-end functionality, enhanced our technical skills in different ways.
-
-Using our base knowledge of Django/Python that we learned about in our classroom lessons, but also using documentation from the Internet to allow us to implement features that we have not learned about before.
+I would say that the biggest takeaway would be Git and GitHub workflow as a team. I believe we grew a lot during that week and learnt a lot from each other, especially when it came to Bootstrap, which was new for everyone and debugging Django messages.
+Learning and making use of the Python and Django framework was great!
+Implementing an API was my personal key learning from this project, especially when it comes to reading thoroughly the related documentation.
 
 ## Future Improvements
 - We would like the app show all the connections made and improve its social feature.
