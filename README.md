@@ -1,13 +1,20 @@
-# Project 3 - FitMeIn
-## Description
-At week nine of the Software Engineering Immersive course at General Assembly, we were challenged to work in a team for this project. We were requested to architect, design and collaboratively build a full-stack web app using Python and Django.
+# FitMeIn
+## Get matched with a workout buddy
+Health if often the most important aspect of ones life but taking care of it can often feel like a daunting task, especially when it comes to exercising.  To most people, workout doesn't come naturally and it is for those people that FitMeIn was made.  All you have to do is to pick what kind of activity you enjoy and you will get matched to a buddy that wants to join you so you can exercise together.  By bringing together people, we hope to give them that extra motivation needed to lead a healthy life (and make friends in the process!).
+### Check it out! [FitMeIn](https://fit-me-in-7fcf0f4ba962.herokuapp.com/)
 
-So here it is, our [FitMeIn](https://fit-me-in-7fcf0f4ba962.herokuapp.com/) app!
+## Description & Motivation
+FitMeIn was the third project in the General Assembly SEI Course.  This project focused on applying the Django Framework and Postgre SQL.  Additionally we opted to implement a Geolocation API. This app was a group project that taught us how to pair and mob program and practice the pull/push workflow in team work.
 
-## Working Team
-Meet the team: [Angelica Sandrini](https://github.com/gellisun) | [Hannah Curran](https://github.com/hannahcurran) | [James Carter](https://github.com/JamesC215) | [Lucas Neno](https://github.com/casneno)
+## Team Work
+Our Team: [Angelica Sandrini](https://github.com/gellisun) | [Hannah Curran](https://github.com/hannahcurran) | [James Carter](https://github.com/JamesC215) | [Lucas Neno](https://github.com/casneno)
 
-There was a great synergy from the beginning, we went through the planning all together and decided that we wanted to build a social network for couch potatoes who need some motivation to exercise.
+From the get-go the entire team got together very well.  As scrum master I divised a series of brainstorming sessions for us to decide on the group name and project, followed by a wireframe building session where the synergy showed very well.
+
+### Brainstorming
+![Initial brainstorming on the project](/main_app/static/images/README/Brainstorming.png "Initial brainstorming on the project")
+### Wireframe
+![Mobile](/main_app/static/images/README/mobile-wireframe.png "Wireframe for mobile")<br>
 
 During the planning we also decided that we would be working with a mix of pair/mob programming and solo programming depending on the needs and functionalities.
 
@@ -35,11 +42,6 @@ During the planning we also decided that we would be working with a mix of pair/
 - Implement authorization by restricting access to the Creation, Updating & Deletion of data resources.
 
 ## Planning
-
-### Brainstorming
-![Initial brainstorming on the project](/main_app/static/images/README/Brainstorming.png "Initial brainstorming on the project")
-### Wireframe
-![Mobile](/main_app/static/images/README/mobile-wireframe.png "Wireframe for mobile")<br>
 
 ![Web](/main_app/static/images/README/web-wireframe.png "Wireframe for web")
 ### ERD
