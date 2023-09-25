@@ -20,18 +20,14 @@ During the planning we also decided that we would be working with a mix of pair/
 
 ## Technology Used
 
-<div align="left">
-	<code><img width="30" src="https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/html-5.svg" alt="HTML" title="HTML"/></code>
-	<code><img width="30" src="https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/css-3.svg" alt="CSS" title="CSS"/></code>
-	<code><img width="40" src="https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/bootstrap.svg" alt="Bootstrap" title="Bootstrap"/></code>
-	<code><img width="40" src="https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/javascript.svg" alt="JavaScript" title="JavaScript"/></code>
-	<code><img width="40" src="https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/python.svg" alt="Python" title="Python"/></code>
-  <code><img width="30" src="https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/django.svg" alt="Django" title="Django"/></code>
-</div><br>
-<div align="left">
-	<code><img width="80" src="https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/git.svg" alt="Git" title="Git"/></code>
-	<code><img width="40" src="https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/github-icon.svg" alt="GitHub" title="GitHub"/></code>
-</div>
+![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20.svg?style=for-the-badge&logo=Django&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3.svg?style=for-the-badge&logo=Bootstrap&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098.svg?style=for-the-badge&logo=Heroku&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white)
+
+
 
 ## Brief
 - Connect to and perform data operations on a PostgreSQL database (the default SQLLite3 database is not acceptable).
